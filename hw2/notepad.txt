@@ -1,0 +1,14 @@
+GITHUB Commands
+There are many GITHUB commands and some of them are
+git status--> It shows the modified files in the working directory.
+git add-->adds a file
+git reset-->unstage a file while retaining the changes in working directory.
+git diff-->difference of what is changed but not staged
+git commit -m -->commit your staged content as a new commit snapshot
+git init-->initialize an existing directory as a Git repository
+git clone--> retreives an entire repository from a hosted location via URL
+git log-->shows all the commits in the current branch's history
+git branch-->create a new branch at the current commit
+git checkout-->switch to another branch and check it out into your working directory
+git merge-->merge the specified branch's history into the current one
+and there are many other commands in the GITHUB

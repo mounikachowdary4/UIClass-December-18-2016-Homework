@@ -1,0 +1,33 @@
+version control tool
+  It is used to record the changes done to a file or set of files.It is also called as revision control or source control tool. Ay what time and by what person the changes are made to a document are recorded.Version control tool is essential in multi developer projects.
+
+GIT
+   It is version control system.It is aimed at speed,data intregity, support for distributed and non linear workflows.It is used to manage the code on the repository.
+
+Repository
+   It is a hosting server where the code is stored.
+
+We will use repository in the software developement to store the different versions of the same code. so that we can run the code using different softwares and can place it back in the repository. 
+
+GITHUB-It is a repository
+  It is a webbased GIT repository hosting service. It offers both private and free repositories at the same time.It provides the access control and collaboration features for every project.
+
+Difference between GIT and GITHUB
+  GIT is a system for version control used by the programers to write code. It is used to keep track of the modification done to the file which is stored in the repository which is nothing but the GITHUB.
+
+pull
+  If there are any updates and we would like to download them we will use pull command.
+
+commit
+  uploading the changes from the file system to local repository.
+
+push 
+  Uploading the changes from local repository to the remote repository.
+
+merge
+  combining two or more people written codes.
+  
+merge conflicts
+  If two people tried to modify the same line of the code then there arises the merge conflicts, manual correction of code is needed here.  
+
+   
