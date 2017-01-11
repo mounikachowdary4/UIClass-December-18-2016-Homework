@@ -1,0 +1,35 @@
+1. How to create a list in html?
+   In html we have two types of lists they are ordered list and unordered list
+   ordered list-syntax:<ol></ol> In ordered list we will get numbers to represent the items by default.
+   unordered list-syntax:<ul></ul> In unordered list we will get bullets to represent the items by default.
+   we can have ordered lists within the unordered list or viceversa.
+
+2.How to include images in html?
+   To insert the images we will use image tag with source as attribute.
+   syntax: <img src="http://www.w3schools.com">
+   we can use the alternative attribute, so that if the image is not found within the link the alternative text will be displayed.
+
+3. How to take user input in html?
+   In order to give the user input we will use <form> within this form we can give the inputs
+   Example: <form>
+              Enter your last name:<input>
+              Enter your age:<input type="number">
+            </form>
+4. How to have links to different webpages and link to different parts of same webpages?
+    To link to the different webpages we will use the anchor tag and hyper reference to direct to the other webpage.
+    Example: <a href="http://www.w3schools.com">w3schools</a>
+
+5. What is head, body, html element and why do we need them in page?
+   The contents written in the head tag are not displayed inside the web page. It consists of title and meta tags.
+   The code written in the body will be displayed in the web page.
+   Html elements are written within the body of the html.
+   Head and body are the child tags of html(parent tag)
+
+6.What are semantic elements?Describe aboit each one of them?
+  Semantic elements give meaning to both browser and developer
+  Example: header-->Introductory content of web page
+           footer-->author,copyright,navigation links,contact information will be available in the footer.
+           section-->webpage is broken into sections
+           article-->all the information regarding the specific topic is present in this article
+           aside-->contents which are placed surrounding to the articles and sections.
+           summary--> all the visible headings
