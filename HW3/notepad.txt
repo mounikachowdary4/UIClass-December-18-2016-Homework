@@ -1,0 +1,21 @@
+1.How to resolve the merge conflicts?
+  Generally merge conflicts arise when two or more people tried to change the same line of the code.When this happens we can see << or === or >>> symbols in the editor. Inorder to resolve this we should first remove those symbols from the editor and then we should consoliate the code and then save it. After this we can stage the changes, commit and then push.
+
+2.What is HTML? How to create a html document?
+  HTML is a Hyper Text Markup Language.If we want to create a webpage it should be a html page. To create a html documnetThe we should write the code and should save the page as .html file, when we open this file in the browser we can view the code in webpage.
+
+3.What is a DOCTYPE?
+  It is the declaration of document type. It is used to identify the version of html we are using. Example: <!DOCTYPE> represents HTML5
+
+4.What is a tag, element in HTML?
+  tag-syntax: < tag name >
+  example: <p> , <h1> ,<img>... 
+
+  element- syntax: <tagname> element name </tagname>
+  Example: <p> This is a para </p>
+           <h1> This is header1 </h1>
+
+5.What is an attribute?
+  syntax: < tag name attribute name="attribute value">
+   Example: <img src="http://www.w3schools.com" alt="w3 schools">
+   
