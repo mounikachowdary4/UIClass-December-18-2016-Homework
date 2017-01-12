@@ -1,0 +1,61 @@
+1.input types of html
+	text-->defines one line text input field
+	password-->allows us to give the password
+	submit-->a button through which we can submit
+	reset-->this button will reset the text to the default values
+	radio-->only one of the limited number of options can beb selected
+	check box-->used to select one of the options
+	button--> used to provide a button to click on
+	color--> allows us to pick one of the color
+	date-->date can be given which is dd-mm-yyyy
+	datetime-local-->date and time can be given
+	email-->we can give the email as an input
+	month-->month and year can be given 
+	search--> we can search something
+	tel--> telep[honenumber can be given
+	url--> url can be given
+
+2.Input attributes
+    value--> used to give the initial value to the input
+    readonly-->it specifies that the input field is readonly
+    disabled-->the input will be disabled
+    size-->used to give the size 
+    maxlength attribute-->specifies the maximum allowed length
+    autocomplete-->we can keep it on or off depending on our choice
+    novalidate-->specifies that the data should not be validated when submitted
+    we also have other attributes like autofocus, formaction,formenctype,formmethod,formnovalidate,formtarget,height,width,list,min,max,multiple,pattern,placeholder,required,step.
+3.Semantic elements
+    semantic elements means elements with meaning. Below are some of the semantic elements
+    <article>
+	<aside>
+	<details>
+	<figcaption>
+	<figure>
+	<footer>
+	<header>
+	<main>
+	<mark>
+	<nav>
+	<section>
+	<summary>
+	<time>
+
+4.difference between article,section and div
+    <div> is a general block level container element, it dont have any semantic meaning beyond being the block level element. There is no need that the elemnts inside the div should be related.
+    <section> is similar to <div> as a general container, but it have some semantic meaning and things inside the section are a logical group of related content.
+    <article> element is like a specialised kind of section. It has more meaning specific semantic meaning in that, it is an independent and self contained part of the page.
+
+5.article-->specifies independent, self-contained content
+  section-->A section is a thematic grouping of content, typically with a heading.
+  footer-->specifies a footer for a document or section.
+  header--> specifies a header for a document or section.
+  aside-->defines some content aside from the content it is placed in (like a sidebar).defines some content aside from the content it is placed in (like a sidebar).
+
+6.Form and form validation in html
+  <form>-->it defines a form that is used to collect the user input
+  form elements--> form elements are different types of input elements like text fields,checkboxes etc
+
+7. Difference between html4 and html5
+   HTML5 has consistency in handling malformed documents
+   It also has better web application features
+   It also got improved element semantics
