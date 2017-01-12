@@ -1,0 +1,37 @@
+1.Different types in CSS
+  In CSS we have 3 types they are 
+   -->Inline CSS
+   -->Internal CSS
+   -->External CSS
+  Inline CSS--> In this we can apply the style to only one line at a time.
+  Internal CSS--> Using this we can style the changes to the elements of same category at a time.
+  External CSS--> Using this we can style the entire html document using the <link> element.
+
+2.Cascading in CSS
+  The cascade is a fundamental feature of CSS. 
+  It is an algorithm defining how to combine properties values originating from different sources.
+
+3.Why do we need to use CSS
+  We use CSS to define styles for your documents, including the design, layout and variations in display for different devices and screen sizes. You can place your CSS in the <head> of a document with an embedded style sheet, or attach a separate file that defines your styles with an external style sheet.
+
+4.Which type of CSS is a better practice
+  Cascading Style Sheets have now become the standard way of adding the look and feel to a website. Virtually all the older HTML3 style commands have now been consigned to history and deprecated in HTML4 and most have been dropped completely in HTML5.
+
+5.Selectors and use of selectors in CSS
+  In CSS, selectors are patterns used to select the element(s) we want to style. Examplesof some of the selectors are 
+   .class
+   #id
+   element
+   elementelement
+   element+element
+   attribute
+   attribute=value
+   attribute~=value
+   attribute^=value
+   attribute$=value
+   ::active
+   ::after
+   ::before
+   :checked
+   :first-line
+   :first-of-type .... etc
