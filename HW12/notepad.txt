@@ -1,0 +1,33 @@
+1. What are datatypes in Javascript
+   undefined
+   boolean
+   number
+   string
+   object-->null
+         -->array
+   function
+
+2.differences between java and javascript in terms of variables
+	java-->static
+           class based 
+           Java constructors are special functions that can only be called at object creation.
+           Java requires all non-block statements to end with a semicolon.
+           Java uses block-based scoping.
+           Java can simulate sort-of "closures" using anonymous classes. 
+	javascript-->dynamic
+	             prototype based
+	             JavaScript "constructors" are just standard functions.
+	             JavaScript inserts semicolons at the ends of certain lines.
+	             JavaScript uses function-based scoping.
+	             JavaScript supports closures.
+
+3.why do we use javascript in web pages
+ 	JavaScript is most commonly used as a client side scripting language.This means that JavaScript code is written into an HTML page. When a user requests a HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it.
+
+4.How to include javascript into  webpages
+	Open up the Notepad.
+	Start a basic HTML document.
+	Add a script tag to the HTML's head, and let the text editor know that you'd like to use a javascript language to write your HTML's javascript "program".
+	Make sure to end your HTML document. 
+	Save your page.
+
