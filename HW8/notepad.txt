@@ -1,0 +1,37 @@
+1.psuedo classes in CSS
+	A pseudo-class is used to define a special state of an element.
+	syntax:selector:pseudo-class {
+                    property:value;
+                    }
+     Examples: :hover--> changes will apply when we place cursor on it
+     		   :active-->changes will apply when we click on it
+     		   :checked-->when it is checked the changes will apply
+     		   :disabled-->we cannot give any input when it is disabled
+     		   :enabled-->changes we give will apply and we can give input
+     		   :focus-->when we place cursor it will be focused
+     		   :in-range-->if values in range are given changes will apply
+     		   :first-child-->if the element is first child it will be selected
+
+2.psuedo elements in CSS
+	pseudo-element is used to style specified parts of an element.
+	syntax:  selector::pseudo-element {
+             property:value;
+              }
+    Example: ::first-letter-->changes will be applied to first letter
+    		 ::first-line-->changes will be applied to first line
+    		 ::after-->content will be added after
+    		 ::before-->content will be added before
+
+3.difference betwen psuedo classes and psuedo elements
+	A pseudo-class is way of selecting certain parts of a HTML document, based in principle not on the HTML document tree itself and its elements or on characteristics like name, attributes or contents, but on other phantom conditions like language encoding or the dynamic state of an element.
+	PSEUDO-ELEMENTS are used to address sub-parts of elements. They allow you to set style on a part of an element's content beyond what is specified in the documents. In other words they allow logical elements to be defined which are not actually in the document element tree.
+
+4.Media queries in CSS 
+	Media queries look at the capability of the device, and can be used to check many things, such as: width and height of the viewport.
+	Example: @media screen and(min-width:480px){
+	body{background-color:lightgreen;
+	}
+	}
+
+5.Responsive web design
+	Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media 
