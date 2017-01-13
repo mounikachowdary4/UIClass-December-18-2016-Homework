@@ -1,0 +1,54 @@
+1.Operational precedence
+	 We are having many operations like addition(+), subtraction(-), multiplication(*) and Division(/).If we have an expression combining all these operation we should know which operation should be performed first. This is called as operational precedence. As in the basic math In javascript also we will follow the BODMAS rule when comes to the operational precedence.
+
+2.truthy values and falsy values
+	In the conditinal statements like if, while, dowhile first the condition will be verified, if the condition is true the statement will be printed. In javascript we are having some truthy value and falsy values.
+	truthy values: true, any number other than 0(example:1, 0.0,-1....), any object, any array, any string which is non empty.
+	falsy values: false, undefined, 0, empty string,NaN, null.
+
+3.logical and(&&), logical or(||)
+	logical and(&&) Irrespective of exp2 the results will be produced
+	 -->If the exp1 is true then the result is exp2
+	 -->If the exp1 is false then the result is exp1
+
+	logical OR(||) Irrespective of exp2 the results will be produced
+	-->If the exp1 is true then the result is exp1
+	-->If the exp1 is false then the result is exp2
+
+4.Conditions in Javascript
+	we will have if-else conditions.
+	If the condition within the if statement is true then the statement within the if statemnt will be printed, else the statement in the else will be printed.
+
+	Example: if(5>2){
+	        console.log("the statement is true");
+	          }
+	          else{
+	          console.log("The statement is false");
+	          }
+
+5.(post and pre) increment, (post and pre) decrement
+	i++ -->post increment
+	++i -->pre increment
+	i-- -->post decrement
+	--i -->pre decrement
+
+6.loops(for,while,do-while)
+	for loop--> syntax: for(var initialization; condition;increment/decrement)
+	In the for loop first the variable will be initialized, then the condition is verified, if the condition is true then it will enter the loop and then the increment happens.
+		Example: for(var i=0; i<10; i++){
+		console.log("the velue of i is: i")
+		}
+   
+   while loop--> syntax:initialization;
+                         while(condition){
+                             //statement
+                             increment;
+                         }
+                         
+   do-while loop--> syntax: initailization;
+                             do{
+                             //statements
+                             increment;
+                             }while(condition);
+
+    In do-while loop irrespective of the condition being true the statement within the loop will be printed once.
