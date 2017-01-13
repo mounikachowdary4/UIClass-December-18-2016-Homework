@@ -1,0 +1,50 @@
+1. Difference between id,class,attribute,tagname
+  id--> selects all the elements with the given id name
+  class-->selects all the elements with the given class name
+  tagname--->the changes which we give in the selector will apply to all the tags which we mentioned.
+  attribute--> we have many attribute based selectors which will select the text depending on the value of the attribute.
+
+
+2.CSS specificity
+	It is the means by which browsers decide which css property value are the most relevant to an element and therefore will be applied.
+
+3.CSS selctors 
+id, class, element, attribute, :active, ::after, ::before, :checked, :disabled, :empty, :enabled, :first-child, ::first-letter, ::first-line ....
+
+4.Descendent selectors in CSS
+	syntax: selector1 selector2{
+	/*CSS styles*/
+	}
+
+5.Child selector
+	syntax:selector1>selector2{
+	/*CSS Styles*/
+	}
+
+6.Adjacent sibling selector
+	syntax:selector1+selector2{/*CSS Styles*/}
+	the changes willl apply to the selector2 next to selector1 
+
+7.Multiple selectors
+	Multiple selectors are the selctors are the selectors seperated by cama
+	example: element,element
+			 div,p -->Selects all <div> elements and all <p> elements
+
+8.Variations in attribute based selectors
+	attribute based selector syntax: [type]{
+	                                      background-color:yellow;
+	                                       }
+	attribute based selector with value syntax: [type=text]{
+	                                      background-color:yellow;
+	                                       }
+	attribute based selector which starts with syntax: [type^=date]{
+	                                      background-color:yellow;
+	                                       }
+	attribute based selector which ends with syntax: [type$=k]{
+	                                      background-color:yellow;
+	                                       }
+
+	attribute based selector which is substring of syntax: [type*=on]{
+	                                      background-color:yellow;
+	                                       }
+    
