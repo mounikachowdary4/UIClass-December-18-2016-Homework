@@ -1,0 +1,43 @@
+Array methods
+  -- for each(call back(item, index, array))
+    --call back will be invoked for for every item in the array
+  --map(callback(item, index, array))
+  	--call back will be invoked for every item iin array
+  	-- out of return values from callback function create a new array and return it
+  --return 
+  	--from left to right reduce using accumulator into one value
+  --sort
+  	--we can provide sorting operation here
+
+Different ways to create an object
+	var obj={};
+	var obj1 = newObject();
+
+What are the properties in objects?
+	we have the key and value pairs within the object
+		key= property name
+		value= property value
+	property name always has to be a string
+	property value can be any javascript datatype
+	property name and value are seperated by colon
+	two properties are seperated by cama
+
+
+How to retreive a property value in objects
+	syntax: objectName.propertyName;
+			objectName['propertyName'];
+
+Updating a property
+	syntax: objectName.propertyName=value
+			objectName['propertyName']
+
+removing a property
+	syntax: delete objectName.propertyName
+			delete objectName['property value']
+
+check if a propertyName exists
+	syntax:object.hasOwnProperty('propertyNmae')
+
+		   if it is true then the property exists
+		   if it is false then the property doesnot exists
+		   
