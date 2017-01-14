@@ -1,0 +1,32 @@
+1.Display property values
+	In CSS we have display properties like
+
+display:inline
+	when the display is inline it will not respect width and height. It will come inline
+display:block
+	when the display is block it respects width and height and display in different lines
+display:inline-block
+	when the display is inline-block it respects width and height properties and also comes in same line
+
+2.Difference between display none and visibility hidden 
+display:none
+	It doesnot occupy width and height
+visibility:hidden
+	we will not see content in both the cases but it will occupy width and height.
+
+3.CSS box model
+	padding-->white space between border and content
+	border-->color,border style
+	margin-->around the border
+
+4.Box sizing
+
+box sizing:content-box; -->content will have width and height
+box-sizing:border-box;  -->padding and border are considered as width
+
+5.SASS
+	A scripting language that extends CSS by allowing developers to write code in one language and then compile it into CSS.The only requirement for using Sass is that you must have Ruby installed.
+
+6.Preprocessor and its use
+	A preprocessor is a program that takes one type of data and converts it to another type of data. In the case of HTML and CSS, some of the more popular preprocessor languages include Haml and Sass . Haml is processed into HTML and Sass is processed into CSS.
+	
