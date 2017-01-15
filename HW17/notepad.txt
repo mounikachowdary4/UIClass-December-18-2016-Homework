@@ -1,0 +1,53 @@
+Object.defineProperty()
+	It is used to define a new property on the object or to modify the existing property on the object and will return the object
+	syntax: Object.defineProperty(obj, prop, description)
+	obj- the object on which to define the property
+	prop-the property which is being defined
+	description- the property descriptor
+
+object.define properties are
+	--configurable
+	  --true if and only if the type of the property descriptor will be changed or deleted from the object default:false
+	--enumerable
+		--true if and only if the property shows up during the enumeration on the corresponding object. default:false
+	--value
+		--value associated with the property can be a number, function, object.. etc. default:undefined
+	--writable
+		--true if the value associated with property may be changed with assignment operator. default:false
+	--get
+		--function will serves as a getter of the property. default:undefined
+	--set
+		--function which serves as a setter of the property. default:undefined
+
+object.create
+	--it will create a new object with specified prototype object and properties
+	syntax: Object.create(proto[, propertiesObject])
+
+object.keys
+	--it will returns an array of a given object's own enumerable properties, in the same order as that provided by a for...in loop
+	syntax: Object.keys(obj)
+
+Prototype
+	Every Javascript object has a prototype and prototype is also an object
+	objects inherit the properties and methods from the prototype
+	we will be having object.prototype and Date.prototype .. 
+	object.prototype is on the top of the prototype chain
+
+This keyword
+	-- In this keyword we are having 2 modes (strict and non strict mode)
+	-- most of the times it is determined by how a function is called.
+	syntax: this
+
+Window
+	--It represents the open window in the browser
+	--if the document contains frames the browser will create window object for HTML document and other window objects for each frame
+	--There are many window object properties like closed, default status, document....
+
+Functions
+	--function is a block of code designed to perform a particular task.
+	--Using functions we can code once and use it many times.
+	syntax: function name(parameter1, parameter2, parameter3) {
+    			code to be executed
+				} 
+call back function
+	--A callback function is also known as a higher-order function. It is a function that is passed to another function as a parameter, and the callback function is called (or executed) inside the otherFunction.
