@@ -1,0 +1,42 @@
+IIFE and use of it
+	Immediately Invoked Function Expression. It will be invoked automatically. 
+	syntax:  (function(){
+	            //this is IIFE
+	          })();
+
+	this pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
+
+Name spacing in javascript 
+ 	Global variables should be reserved for objects that have system-wide relevance and they should be named to avoid ambiguity and minimize the risk of naming collisions. In practice this means you should avoid creating global objects unless they are absolutely necessary.
+ 	We are having two types of namespacing they are
+ 	static and dynamic name spacings.
+
+Module pattern
+	syntax: var Module = (function(){
+	  //code
+	})();
+	We can pass one module into another.
+
+It is not a good practice to have too many global variables or functions because too many global variables or functions may create ambiguity and risk of naming collisions, so it is better to use global variables or functions when they are absolutely necessary.
+
+HTML DOM Events
+	HTML DOM events allow JavaScript to register different event handlers on elements in an HTML document.Events are normally used in combination with functions, and the function will not be executed before the event occurs. We are having Mouse events, keyboard events, frame/object events, form events, drag events, clipboard events and so on..
+
+Event Listener
+	syntax--> element.addEventListener(event, function, useCapture);
+	The first parameter is the type of the event (like "click" or "mousedown").
+	The second parameter is the function we want to call when the event occurs.
+	The third parameter is a boolean value specifying whether to use event bubbling or event capturing. 
+
+Event Handler-->An event handler is a callback routine that operates asynchronously and handles inputs received into a program
+	Example: element.addEventListener("click", function(){ alert("Hello World!"); });
+
+Event propagation: There are two ways of event propagation in the HTML DOM, bubbling and capturing.
+
+Bubbling-->In bubbling the inner most element's event is handled first and then the outer: the <p> element's click event is handled first, then the <div> element's click event.
+
+Capturing-->In capturing the outer most element's event is handled first and then the inner: the <div> element's click event will be handled first, then the <p> element's click event.
+
+addEventListener(event, function, useCapture);
+example: document.getElementById("myP").addEventListener("click", myFunction, true);
+The default value is false, which will use the bubbling propagation, when the value is set to true, the event uses the capturing propagation.
