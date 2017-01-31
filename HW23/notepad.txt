@@ -1,0 +1,52 @@
+Basic CSS selectors
+	* -- used to select all the elements
+	.class -- for all the class selectors
+	element -- for all the elements
+    #id -- for the elements with the id attribute
+    selector1,selector2 -- for selecting multiple selectors
+
+attribute based selectors
+	name*="value" -- specifies attribute with value as substring 
+	name~="value" --attribute that contains the given word
+	name^="value" -- beginning with the given string
+	name!="value" --select the attributes which dont have the specified values or which do have the specified values.
+	name$="value" --select the attributes that have the given values as last value of the string
+	name="value" --selects the attributes with the values exatly equal to the given value
+
+child filter selectors
+	first-child selector -- selects all the first childs of the parents  
+	first-of-type selector -- Selects all elements that are the first among siblings of the same element name.
+	last-child selector --Selects all elements that are the last child of their parent.
+	last-of-type selector --Selects all elements that are the last among siblings of the same element name.
+	nth-child() selector --Selects all elements that are the nth-child of their parent.
+	nth-last-child() selector --Selects all elements that are the nth-child of their parent, counting from the last element to the first.
+	nth-last-of-type() selector--Selects all the elements that are the nth-child of their parent in relation to siblings with the same element name, counting from the last element to the first.
+	nth-of-type selector-- Selects all elements that are the nth child of their parent in relation to siblings with the same element name.
+	only-child selector--Selects all elements that are the only child of their parent.
+	only-of-type selector--Selects all elements that have no siblings with the same element name.
+
+form-selectors
+	:button
+	:checkbox
+	:checked
+	:disabled
+	:enabled
+	:file
+	:focus
+	:image
+	:input
+	:password
+	:radio
+	:reset
+	:selected
+	:submit
+	:text
+	The above are all the form selectors
+
+Hierarchy-selectors
+	child selector(parent>child)
+	descendent selector("ancestor selector")
+	next adjacent selector(prev+next)
+	next sibling selector(prev~sibling)
+
+

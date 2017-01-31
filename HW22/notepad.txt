@@ -1,0 +1,31 @@
+DOM properties and methods
+	DOM methods are the actions that are performed like adding or deleting HTML element
+	DOM properties are the values that we can get or set like changing the content of the HTML element
+	Example: document.getElementById("demo").innerHTML="Hello World"
+	In the above example getElementById is method and innerHTML is a property.
+	We can get the element by ID, classname, tagname
+	we can also change the elements using innerHTML, attribute, .setattribute, .style.attribute ....
+
+BOM(Browser Object Model)
+	Gobal variables are the properties of window object
+	Global function are the methods of the window object
+	Example: window.document.getElementById("header"); is same as document.getElementById("header");
+
+AJAX in Javascript
+	AJAX is a technique for accessing web servers from a web page.
+	AJAX stands for Asyncronous JavaScript And XML.
+	It will allow web pages to be updated asynchronously by exchanging data with web servers behind the scenes.
+
+jQuery
+	jQuery makes it much easier for the javascript on the website.
+	jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+what jQuery does that javascript doesnot 
+	--jQuery doesn't need to do the same thing as Javascript, because it sits on top of Javascript, using Javascript.
+	--For example, there's no jQuery function that lets you concatenate strings, but there doesn't need to be, since Javascript can already concatenate strings. There's no need for jQuery to re-implement that functionality.
+	--You can't use jQuery with using JavaScript. For instance, jQuery can't replace basic JS like var i=4. Anytime you write jQuery, you're writing JavaScript. I think instead 'JavaScript' you should be saying 'native DOM functions', like document.createElement('div') vs $('<div></div>').
+
+$ in jQuery versions
+	--$ is pretty commonly used as a selector function in JS. In jQuery the $ function does much more than select things though. You can pass it a selector to get a collection of matching elements from the DOM.
+	--if the page contains more than one JavaScript library, then $ may be used by another library, which can cause jQuery not to work.
+

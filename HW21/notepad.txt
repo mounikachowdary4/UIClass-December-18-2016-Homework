@@ -1,0 +1,27 @@
+Event listener:
+The addEventListener() method attaches an event handler to the specified element. The addEventListener() method attaches an event handler to an element without overwriting existing event handlers. We can add many event handlers to one element.  The addEventListener() method makes it easier to control how the event reacts to bubbling. Another important feature of addEventListener is the final parameter, which controls how the listener reacts to bubbling events.There is no equivalent argument for attachEvent, or when using inline events.
+
+
+Event propogation:
+The term event prpogation is often used as a synonym of event bubbling. However, strictly speaking, event propagation  is a wider term: it includes not only event bubbling but also event capturing. Event capturing is the opposite of bubbling. Event capturing is supported in fewer browsers and rarely used; notably, Internet Explorer prior to version 9.0 does not support event capturing.
+
+id:
+Identifiers are names. In JavaScript, identifiers are used to name variables. The rules for legal names are much the same in most programming languages. In JavaScript, the first character must be a letter, an underscore (_), or a dollar sign ($).Subsequent characters may be letters, digits, underscores, or dollar signs.
+
+class:
+Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations. It's important to note that there are no classes in JavaScript. Functions can be used to somewhat simulate classes, but in general JavaScript is a class-less language. Everything is an object. And when it comes to inheritance, objects inherit from objects, not classes from classes as in the "class"-ical languages
+
+tagName:
+The tagName property returns the tag name of the element. In HTML, the returned value of the tagName property is always in UPPERCASE. This property is read-only.
+
+
+EVENT BUBBLING AND EVENT CAPTURING:
+
+Event bubbling and capturing are two ways of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. The event propagation mode determines in which order the elements receive the event .With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. With capturing, the event is first captured by the outermost element and propagated to the inner elements. Capturing is also called "trickling"
+
+
+Event.stop prpogation:
+The event.stopPropagation() method stops the building of an event to parent elements, preventing any parent event handlers from being executed. We use the event.ispropagationStopped() method to check whether this metod was called for tthe event.
+
+
+
