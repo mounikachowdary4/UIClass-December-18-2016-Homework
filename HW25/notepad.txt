@@ -1,0 +1,23 @@
+Restful web services
+	RESTful web services are built to work best on the Web. Representational State Transfer (REST) is an architectural style that specifies constraints, such as the uniform interface, that if applied to a web service induce desirable properties, such as performance, scalability, and modifiability, that enable services to work best on the Web.
+
+AJAX
+	AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.Ajax uses XHTML for content, CSS for presentation, along with Document Object Model and JavaScript for dynamic content display.
+
+Where we use AJAX
+	Ajax is a client-side script that communicates to and from a server/database without the need for a postback or a complete page refresh.Ajax is the method of exchanging data with a server, and updating parts of a web page – without reloading the entire page.
+
+HTTP methods
+	HEAD-->Same as GET but returns only HTTP headers and no document body
+	PUT-->Uploads a representation of the specified URI
+	DELETE-->Deletes the specified resource
+
+HTTP Status Codes
+	200-->Standard response for successful HTTP requests. The actual response will depend on the request method used.
+	201-->The request has been fulfilled, resulting in the creation of a new resource.
+	3XX-->This class of status code indicates the client must take additional action to complete the request.
+	400-->The server cannot or will not process the request due to an apparent client error
+	403-->The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
+	500-->A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+	
+
