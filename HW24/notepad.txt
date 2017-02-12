@@ -1,0 +1,19 @@
+Event handler
+	An event handler is a callback routine that operates asynchronously and handles inputs received into a program. In this context, an event is some meaningful element of application information from an underlying development framework, usually from a graphical user interface (GUI) toolkit or some kind of input routine.
+
+Event delegation(javascript)
+	Event delegation is, quite simply, using a single event handler to manage a particular type of event for the entire page. This isn’t a new idea, but it is an important one to grasp for performance. 
+Event delegation(jQuery)
+	Event delegation allows us to attach a single event listener, to a parent element, that will fire for all descendants matching a selector, whether those descendants exist now or are added in the future.
+
+Chaining in Jquery
+	Chaining allows us to run multiple jQuery methods (on the same element) within a single statement.
+
+Event handler Methods
+	click-->used to attach or trigger the click event
+	bind-->attaches event handlers to elements
+	delegate-->Attaches a handler to current, or future, specified child elements of the matching elements
+	on-->Attaches event handlers to elements
+	live-->Adds one or more event handlers to current, or future, selected elements
+
+	
