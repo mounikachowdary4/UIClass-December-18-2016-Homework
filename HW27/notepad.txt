@@ -1,0 +1,25 @@
+Asyncronous progarmming
+	JavaScript is asynchronous. This means we will not have any interruptions. If we are running event1 and event2 occurs, it will return to event2 only after event1 is completed. In other words when the event2 is read CPU will continue to execute rest of the statements in the program. Asynchronous programming will save time and executes fastly.
+
+$q
+	$q is a inbuilt service. It is all about the way of executing a program. There are two ways of executing a program, they are syncronous and asynchronous. In synchronous event1 is interrupted by event2, after the completion of event2 it will return back to event1. In asynchronous event1 is not interrupted by any event.
+
+
+setTimeout()
+	It is used to run the function or display the content when the event occurs, but that will happen after the specific amount of time that is mentioned.
+	For example:
+	setTimeout(function(){alert("Hello");}, 3000);
+		when this function is called the alert will be displayed only after 3000 milliseconds.
+
+Promise:
+	Promise is a special type of object that we can use or construct oursleves to solve the asynchronous task. We will call it Promise because we will be getting the result at the end of the task. Promise has three states they are pending, resolved and rejected.
+
+Directives
+	AngularJS directives are the extensions of HTML attributes which will start with ng
+	some of them are 
+	ng-app--> it will say that div is the owner of AngularJS application
+	ng-model-->it will initialize the application
+	ng-bind--> carry the information from the model
+	ng-init-->the value will be initialized
+
+	
