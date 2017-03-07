@@ -1,0 +1,43 @@
+pass by value vs pass by reference
+	When a parameter is passed by reference, the caller and the callee use the same variable for the parameter. If the callee modifies the parameter variable, the effect is visible to the caller's variable.
+
+	When a parameter is passed by value, the caller and callee have two independent variables with the same value. If the callee modifies the parameter variable, the effect is not visible to the caller.
+
+MVVM
+M-model--> Used to hold datain memory
+V-view-->used to show the data in the page
+VM-view model-->between model and view data changes are synchronized
+                 ng-model, ng-bind comes under view model
+databinding: Any changes made in the model are viewed in the view immediately, this is called databinding
+
+
+
+Diff between factory and service
+	factory: syntax--> angular.module('myApp')
+						.factory('fac1',function(){
+						  return{}
+						})
+	In factory we use return keyword
+	fatory can give us any datatype
+
+	service: syntax--> angular.module('myApp')
+	                    .service('serv1',function(){
+	                    this.name='service method';
+	                    this.func1=function(a,b){
+	                       return a*b;
+	                    }
+	                    })
+	We cannot use a return keyword
+	service can only give us objects
+	it is a constructor
+
+diff between MVVM and MVC
+	MVVM is a Databinding model. It will display any changes in the model in the view immediately.
+	MVC is a Model View Controller
+	--Here the controller is a child scope, it inherits all models from its parent scope
+    --Any model defined in a controller is only valid in the current controller
+    --we can define actions which can be triggered from the view
+    syntax:<div ng-controller = "ctrlName"></div>
+
+promises
+	Promise is a special type of object that we can use or construct oursleves to solve the asynchronous task. We will call it Promise because we will be getting the result at the end of the task. Promise has three states they are pending, resolved and rejected.
